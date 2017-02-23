@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44523E441E5CA58A008788E7 /* Truck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44523E431E5CA58A008788E7 /* Truck.swift */; };
+		44523E471E5CB3BE008788E7 /* TruckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44523E461E5CB3BE008788E7 /* TruckView.swift */; };
+		44523E491E5CC231008788E7 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44523E481E5CC231008788E7 /* Common.swift */; };
+		44523E4B1E5CC962008788E7 /* TruckSizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44523E4A1E5CC962008788E7 /* TruckSizeView.swift */; };
+		445393971E5C5D5700DFD662 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445393961E5C5D5700DFD662 /* AppDelegate.swift */; };
+		4453939C1E5C5D5700DFD662 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4453939A1E5C5D5700DFD662 /* Main.storyboard */; };
+		445393A11E5C5D5700DFD662 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 445393A01E5C5D5700DFD662 /* Assets.xcassets */; };
+		445393A41E5C5D5700DFD662 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 445393A21E5C5D5700DFD662 /* LaunchScreen.storyboard */; };
+		445393B11E5C5EA900DFD662 /* TruckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445393AF1E5C5EA900DFD662 /* TruckViewController.swift */; };
+		44BDC74E1E5D9271000CEBD1 /* TruckCapacity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BDC74D1E5D9271000CEBD1 /* TruckCapacity.swift */; };
+		44BDC7501E5DA101000CEBD1 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BDC74F1E5DA101000CEBD1 /* CartView.swift */; };
+		44BDC7521E5DC6E8000CEBD1 /* CartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BDC7511E5DC6E8000CEBD1 /* CartItem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		44523E431E5CA58A008788E7 /* Truck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Truck.swift; sourceTree = "<group>"; };
+		44523E461E5CB3BE008788E7 /* TruckView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TruckView.swift; sourceTree = "<group>"; };
+		44523E481E5CC231008788E7 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		44523E4A1E5CC962008788E7 /* TruckSizeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TruckSizeView.swift; sourceTree = "<group>"; };
+		445393931E5C5D5700DFD662 /* TripIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		445393961E5C5D5700DFD662 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4453939B1E5C5D5700DFD662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		445393A01E5C5D5700DFD662 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		445393A31E5C5D5700DFD662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		445393A51E5C5D5700DFD662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		445393AF1E5C5EA900DFD662 /* TruckViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TruckViewController.swift; sourceTree = "<group>"; };
+		44BDC74D1E5D9271000CEBD1 /* TruckCapacity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TruckCapacity.swift; sourceTree = "<group>"; };
+		44BDC74F1E5DA101000CEBD1 /* CartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		44BDC7511E5DC6E8000CEBD1 /* CartItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartItem.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		445393901E5C5D5700DFD662 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44523E451E5CB388008788E7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				44523E461E5CB3BE008788E7 /* TruckView.swift */,
+				44523E4A1E5CC962008788E7 /* TruckSizeView.swift */,
+				44BDC74F1E5DA101000CEBD1 /* CartView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4453938A1E5C5D5700DFD662 = {
+			isa = PBXGroup;
+			children = (
+				445393951E5C5D5700DFD662 /* TripIn */,
+				445393941E5C5D5700DFD662 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		445393941E5C5D5700DFD662 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				445393931E5C5D5700DFD662 /* TripIn.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		445393951E5C5D5700DFD662 /* TripIn */ = {
+			isa = PBXGroup;
+			children = (
+				44523E451E5CB388008788E7 /* Views */,
+				445393AD1E5C5EA900DFD662 /* Common */,
+				445393AE1E5C5EA900DFD662 /* Controllers */,
+				445393B01E5C5EA900DFD662 /* Models */,
+				445393961E5C5D5700DFD662 /* AppDelegate.swift */,
+				4453939A1E5C5D5700DFD662 /* Main.storyboard */,
+				445393A01E5C5D5700DFD662 /* Assets.xcassets */,
+				445393A21E5C5D5700DFD662 /* LaunchScreen.storyboard */,
+				445393A51E5C5D5700DFD662 /* Info.plist */,
+			);
+			path = TripIn;
+			sourceTree = "<group>";
+		};
+		445393AD1E5C5EA900DFD662 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				44523E481E5CC231008788E7 /* Common.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		445393AE1E5C5EA900DFD662 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				445393AF1E5C5EA900DFD662 /* TruckViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		445393B01E5C5EA900DFD662 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				44523E431E5CA58A008788E7 /* Truck.swift */,
+				44BDC74D1E5D9271000CEBD1 /* TruckCapacity.swift */,
+				44BDC7511E5DC6E8000CEBD1 /* CartItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		445393921E5C5D5700DFD662 /* TripIn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 445393A81E5C5D5700DFD662 /* Build configuration list for PBXNativeTarget "TripIn" */;
+			buildPhases = (
+				4453938F1E5C5D5700DFD662 /* Sources */,
+				445393901E5C5D5700DFD662 /* Frameworks */,
+				445393911E5C5D5700DFD662 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TripIn;
+			productName = TripIn;
+			productReference = 445393931E5C5D5700DFD662 /* TripIn.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4453938B1E5C5D5700DFD662 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Rahul Tamrakar";
+				TargetAttributes = {
+					445393921E5C5D5700DFD662 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4453938E1E5C5D5700DFD662 /* Build configuration list for PBXProject "TripIn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4453938A1E5C5D5700DFD662;
+			productRefGroup = 445393941E5C5D5700DFD662 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				445393921E5C5D5700DFD662 /* TripIn */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		445393911E5C5D5700DFD662 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				445393A41E5C5D5700DFD662 /* LaunchScreen.storyboard in Resources */,
+				445393A11E5C5D5700DFD662 /* Assets.xcassets in Resources */,
+				4453939C1E5C5D5700DFD662 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4453938F1E5C5D5700DFD662 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44BDC7501E5DA101000CEBD1 /* CartView.swift in Sources */,
+				445393B11E5C5EA900DFD662 /* TruckViewController.swift in Sources */,
+				445393971E5C5D5700DFD662 /* AppDelegate.swift in Sources */,
+				44523E471E5CB3BE008788E7 /* TruckView.swift in Sources */,
+				44523E491E5CC231008788E7 /* Common.swift in Sources */,
+				44BDC74E1E5D9271000CEBD1 /* TruckCapacity.swift in Sources */,
+				44523E441E5CA58A008788E7 /* Truck.swift in Sources */,
+				44BDC7521E5DC6E8000CEBD1 /* CartItem.swift in Sources */,
+				44523E4B1E5CC962008788E7 /* TruckSizeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4453939A1E5C5D5700DFD662 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4453939B1E5C5D5700DFD662 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		445393A21E5C5D5700DFD662 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				445393A31E5C5D5700DFD662 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		445393A61E5C5D5700DFD662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		445393A71E5C5D5700DFD662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		445393A91E5C5D5700DFD662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				INFOPLIST_FILE = TripIn/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TripIn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		445393AA1E5C5D5700DFD662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				INFOPLIST_FILE = TripIn/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TripIn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4453938E1E5C5D5700DFD662 /* Build configuration list for PBXProject "TripIn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				445393A61E5C5D5700DFD662 /* Debug */,
+				445393A71E5C5D5700DFD662 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		445393A81E5C5D5700DFD662 /* Build configuration list for PBXNativeTarget "TripIn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				445393A91E5C5D5700DFD662 /* Debug */,
+				445393AA1E5C5D5700DFD662 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4453938B1E5C5D5700DFD662 /* Project object */;
+}
